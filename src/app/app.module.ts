@@ -11,7 +11,7 @@ import { APP_BASE_HREF } from '@angular/common';
   imports: [
     BrowserModule
   ],
-  providers: [[{provide: APP_BASE_HREF, useValue: 'https://srmnq.github.io/test/'}]],
+  providers: [[{provide: APP_BASE_HREF, useValue: '/test/'}]],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
